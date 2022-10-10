@@ -24,6 +24,9 @@ width: 100%;
     justify-content: center;
     align-items: center;
 }
+#agenda > div > div.text-center > h1 > br:nth-child(1), #agenda > div > div.text-center > h1 > br:nth-child(2) {
+    display: none;
+}
 
 .color-#ffc107 {
     color: #ffc107;
@@ -61,7 +64,7 @@ width: 100%;
     position: absolute;
 }
 .flor2 {
-    left: 0;
+    left: -130px;
     top: 50%;
     transform: rotate(-90deg);
     width: 50%;
@@ -69,7 +72,7 @@ width: 100%;
 }
 
 .flor1 {
-    right: 0;
+    right: -130px;
     top: 10%;
     transform: rotate(90deg);
     width: 50%;
@@ -87,6 +90,10 @@ width: 100%;
     display: none;
 }
 
+.ecommerce p {
+    font-size: 18px;
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -99,8 +106,22 @@ form {
 }
 
 @media (max-width: 728px) {
-   body {
-    background-color: transparent;
-   }
+  
+    .flor2 {
+        width: 100%;
+    top: 60%;
+
+    }
+    
+    .flor1 {
+        width: 100%;
+    }
+    #agenda > div > div.text-center > h1 > br:nth-child(1), #agenda > div > div.text-center > h1 > br:nth-child(2) {
+        display: inline;
+    }
+    .ecommerce p {
+        font-size: 12px;
+    }
+  
   }
 
