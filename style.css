@@ -3,16 +3,41 @@
     src: url("./fonts/Rastanty\ Cortez.ttf");
   }
 
-  h1 { 
+  @font-face {
+    font-family: "mk-serif";
+    src: url("./fonts/MaryKaySerif100-Light.otf");
+  }
+  @font-face {
+    font-family: "mk-sans-bold";
+    src: url("./fonts/MaryKaySans-Bold.otf");
+  }
+
+  .h1-d { 
     font-family: "Rastanty", serif;
-    font-size: 85px;
+    font-size: 120px;
+    margin: -40px 0;
+}
+
+.h2-d { 
+    font-family: "Rastanty", serif;
+    font-size: 100px;
+}
+
+.h2 {
+    font-family: "mk-serif", serif;
+    font-weight: 700;
+   
+}
+
+body {
+    color: rgb(30, 30, 30);
 }
 
 .hero-banner img {
 width: 100%;
 }
 .header img {
-    width: 200px;
+    width: 300px;
 }
 
 .border-r {
@@ -33,14 +58,14 @@ width: 100%;
 }
 
 .line-c {
-    margin: 30px 0 50px 0;
+    margin: 20px 0 20px 0;
     text-align: center;
     width: 20%;
     border-bottom: 1px solid #ffc107;
 }
 
 .flores2 img {
-    width: 200px;
+    width: 400px;
 }
 .flores2 {
     display: flex;
@@ -67,7 +92,7 @@ width: 100%;
     left: -130px;
     top: 50%;
     transform: rotate(-90deg);
-    width: 50%;
+    width: 300px;
     z-index: -99;
 }
 
@@ -75,7 +100,7 @@ width: 100%;
     right: -130px;
     top: 10%;
     transform: rotate(90deg);
-    width: 50%;
+    width: 300px;
     z-index: -99;
 }
 .btn-agenda {
