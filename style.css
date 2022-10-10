@@ -44,6 +44,37 @@ width: 100%;
     justify-content: space-between;
     align-items: center;
 }
+.flores2 img {
+    transform: rotate(180deg);
+
+}
+
+.flores-2 {
+    display: flex;
+    justify-content: start;
+    transform: rotate(180deg);
+}
+.agenda {
+    position: relative;
+}
+.flor2, .flor1 {
+    position: absolute;
+}
+.flor2 {
+    left: 0;
+    top: 50%;
+    transform: rotate(-90deg);
+    width: 50%;
+    z-index: -99;
+}
+
+.flor1 {
+    right: 0;
+    top: 10%;
+    transform: rotate(90deg);
+    width: 50%;
+    z-index: -99;
+}
 .btn-agenda {
     text-decoration: none;
     color: #666;
@@ -63,12 +94,13 @@ form {
     width: 80%;
     padding: 30px;
     border: 1px solid #666;
+    border-radius: 5px;
     margin: 0 auto;
 }
 
 @media (max-width: 728px) {
    body {
-    background-color: blueviolet;
+    background-color: transparent;
    }
   }
 

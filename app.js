@@ -3,7 +3,8 @@ const listaRegalos = document.getElementById('listaRegalos');
 const btnAgenda = document.getElementById('btnAgenda');
 const btnRegalos = document.getElementById('btnRegalos');
 const aporteAqui = document.querySelectorAll(".ecommerce .aporte-aqui");
-const messageModal = document.getElementById('exampleModalLabel')
+const messageModal = document.getElementById('exampleModalLabel');
+const closeModal = document.querySelector('.btn-close');
 
 console.log(aporteAqui[0].dataset.aporte);
 
@@ -41,6 +42,10 @@ const aporta = () => {
       top:0,
       behavior: 'auto'
   })
+
+  closeModal.click()
+
+
 
    checkout.open(function ( result ) {
         var transaction = result.transaction
