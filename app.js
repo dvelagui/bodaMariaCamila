@@ -5,15 +5,18 @@ const btnRegalos = document.getElementById('btnRegalos');
 
 
 const aporta = () => {
-  let refer = Math.ceil(Math.random());
+    const refer = Math.floor(Math.random() * 300);
     const valor = document.getElementById('valor').value;
     const nombre = document.getElementById('nombre').value;
     const phone = document.getElementById('phone').value;
     const mail = document.getElementById('mail').value;
+    const mensaje = document.getElementById('mensaje').value;
+
+    console.log(mensaje);
     const checkout = new WidgetCheckout({
       currency: 'COP',
       amountInCents: valor * 100,
-      reference: `${refer}`,
+      reference: `${mensaje} - ${refer}`,
       publicKey: 'pub_test_EPOG9mDxjRS8BmqUr3WHiVZLYPjA0BDW',
       customerData: {
         email: `${mail}`,
@@ -26,9 +29,9 @@ const aporta = () => {
       top:0,
       behavior: 'auto'
   })
+
    checkout.open(function ( result ) {
         var transaction = result.transaction
-        console.log('FullName: ', phoneNumber)
         console.log('Transaction ID: ', transaction.id)
         console.log('Transaction object: ', transaction)
       })
