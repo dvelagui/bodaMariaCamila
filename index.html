@@ -120,64 +120,67 @@
                 <div class="row justify-content-around align-items-end">
                     
                     <div class="col-5 text-center mt-5">
-                       <a href="#datosAporte" class="text-decoration-none text-muted"><p>Almuerzo en Peter Luger (lugar en el que almorzamos el día que nos comprometimos)<br> <strong>New York
-                        </strong></p>
-                        <img class="w-100" src="./assets/Imagen1.jpg" alt="">
-                    </a> 
-                    </div>
-                    
-                    <div class="col-5 text-center mt-5">
-                        <a href="#datosAporte" class="text-decoration-none text-muted"><p>Comida en Rezdora<br><strong>New York
-                        </strong></p>
-                        <img class="w-100" src="./assets/Imagen2.jpg" alt="">
-                    </a> 
-                    </div>
-                    <div class="col-5 text-center mt-5">
-                        <a href="#datosAporte" class="text-decoration-none text-muted"><p>Comida en Rezdora<br><strong>New York
-                        </strong></p>
-                        <img class="w-100" src="./assets/Imagen2.jpg" alt="">
-                    </a> 
-                    </div>
-                    <div class="col-5 text-center mt-5">
-                        <a href="#datosAporte" class="text-decoration-none text-muted"><p>Comida en Rezdora<br><strong>New York
-                        </strong></p>
-                        <img class="w-100" src="./assets/Imagen2.jpg" alt="">
-                    </a> 
-                    </div>
-                    <div class="col-5 text-center mt-5">
-                        <a href="#datosAporte" class="text-decoration-none text-muted"><p>Comida en Rezdora<br><strong>New York
-                        </strong></p>
-                        <img class="w-100" src="./assets/Imagen2.jpg" alt="">
-                    </a> 
-                    </div>
-                    <div class="col-5 text-center mt-5">
-                        <a href="#datosAporte" class="text-decoration-none text-muted"><p>Comida en Rezdora<br><strong>New York
-                        </strong></p>
-                        <img class="w-100" src="./assets/Imagen2.jpg" alt="">
-                    </a> 
-                    </div>
+                        <p>Almuerzo en Peter Luger (lugar en el que almorzamos el día que nos comprometimos)<br> <strong>New York
+                         </strong></p>
+                         <img class="w-100" src="./assets/Imagen1.jpg" alt="">
+                     <button type="button" class="btn btn-secondary mt-2 aporte-aqui" data-bs-toggle="modal" data-bs-target="#exampleModal" data-aporte="Almuerzo en Peter Luger - New York">Aporta Aquí</button>
+                     </div>  <div class="col-5 text-center mt-5">
+                        <p>Comida en Rezdora<br> <strong>New York
+                         </strong></p>
+                         <img class="w-100" src="./assets/Imagen1.jpg" alt="">
+                     <button type="button" class="btn btn-secondary mt-2 aporte-aqui" data-bs-toggle="modal" data-bs-target="#exampleModal" data-aporte="Comida en Rezdora - New York">Aporta Aquí</button>
+                     </div>  <div class="col-5 text-center mt-5">
+                        <p>Musical de Broadway<br> <strong>New York
+                         </strong></p>
+                         <img class="w-100" src="./assets/Imagen1.jpg" alt="">
+                     <button type="button" class="btn btn-secondary mt-2 aporte-aqui" data-bs-toggle="modal" data-bs-target="#exampleModal" data-aporte="Musical de Broadway - New York">Aporta Aquí</button>
+                     </div>  <div class="col-5 text-center mt-5">
+                        <p>City Tour Singapore<br> <strong>Singapore
+                         </strong></p>
+                         <img class="w-100" src="./assets/Imagen1.jpg" alt="">
+                     <button type="button" class="btn btn-secondary mt-2 aporte-aqui" data-bs-toggle="modal" data-bs-target="#exampleModal" data-aporte="City Tour Singapore">Aporta Aquí</button>
+                     </div>
                     
 
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="mail" class="col-form-label">Correo electronico:</label>
+            <input type="text" class="form-control" id="mail" required>
+          </div>
+          <div class="mb-3">
+            <label for="nombre" class="col-form-label">Nombre:</label>
+            <input type="text" class="form-control" id="nombre" required>
+          </div>
+          <div class="mb-3">
+            <label for="phone" class="col-form-label">Celular:</label>
+            <input type="text" class="form-control" id="phone" required>
+          </div>
+          <div class="mb-3">
+            <label for="valor" class="col-form-label">¿Cuánto quieres aportar? - <span style="font-size: 10px;">Escribe el número sin puntos, ni comas, ni signos</span></label>
+            <input type="text" class="form-control" id="valor" required>
+          </div>
+          <div class="mb-3">
+            <label for="mensaje" class="col-form-label">Mensaje a los Novios:</label>
+            <textarea class="form-control" id="mensaje" required></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" onclick="aporta()">Continuar</button>
+      </div>
+    </div>
+  </div>
+</div>
                     
-                <div class="text-center mt-5 mb-5" id="datosAporte">
-                    <h2>Aporte Libre para la Luna de Miel</h2>
-                </div>
-                <form action="" class="w-75 p-5">
-                    <span class="fs-3">Correo Electronico:</span>
-                    <input type="text" id="mail" placeholder="correo electronico">
-                    <span class="fs-3 mt-5">Nombre:</span>
-                    <input type="text" id="nombre" placeholder="Nombre Completo">
-                    <span class="mt-5 fs-3" >Celular:</span>
-                    <input type="number" name="phone" id="phone">
-                    <span class="mt-5 fs-3">¿Cuánto quieres aportar? - <span class="fs-5">Escribe el número sin puntos, ni comas, ni signos
-                    </span>
-                    </span>
-                    <input type="number" name="valor" id="valor">
-                    <span class="mt-5 fs-3">Mensaje a los novios:</span>
-                    <textarea name="mensaje" id="mensaje" cols="30" rows="5"></textarea>
-                    
-                    <input type="button" class="btn btn-secondary mt-5" name="enviar" value="ENVIAR" onclick="aporta()"></input>
-                </form>
+
                 
             </section>
         </div>
@@ -186,5 +189,6 @@
 
     </main>
     <script src="./app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

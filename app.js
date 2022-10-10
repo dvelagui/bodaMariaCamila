@@ -2,6 +2,18 @@ const agenda = document.getElementById('agenda');
 const listaRegalos = document.getElementById('listaRegalos');
 const btnAgenda = document.getElementById('btnAgenda');
 const btnRegalos = document.getElementById('btnRegalos');
+const aporteAqui = document.querySelectorAll(".ecommerce .aporte-aqui");
+const messageModal = document.getElementById('exampleModalLabel')
+
+console.log(aporteAqui[0].dataset.aporte);
+
+aporteAqui.forEach(aportes => {
+  aportes.addEventListener('click', () => {
+    let msg = aportes.dataset.aporte; 
+    console.log(msg);
+    return messageModal.innerText = `tu aporte sera para ${msg}`
+  })
+})
 
 
 const aporta = () => {

@@ -25,15 +25,15 @@ width: 100%;
     align-items: center;
 }
 
-.color-peru {
-    color: peru;
+.color-#ffc107 {
+    color: #ffc107;
 }
 
 .line-c {
     margin: 30px 0 50px 0;
     text-align: center;
     width: 20%;
-    border-bottom: 1px solid peru;
+    border-bottom: 1px solid #ffc107;
 }
 
 .flores2 img {
@@ -65,3 +65,10 @@ form {
     border: 1px solid #666;
     margin: 0 auto;
 }
+
+@media (max-width: 728px) {
+   body {
+    background-color: blueviolet;
+   }
+  }
+
