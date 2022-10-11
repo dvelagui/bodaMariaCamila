@@ -19,7 +19,11 @@
             <div class="header">
                 <img src="./assets/Flor2.PNG" alt="">
                 <div class="text-center">
-                    <h1 class="h1-d">María Camila <br>&<br> Alejandro</h1>
+                    <h1 class="h1-d">María Camila <br>&<br> <span>Alejandro</span></h1>
+                    <h1 class="h1-m">María Camila</h1><br>
+                    <h1 class="h1-m">&</h1><br>
+                    <h1 class="h1-m">Alejandro</h1>
+                     
                 </div>
                 <div class="flores-2">
                     <img src="./assets/Flor1.PNG" alt="">
@@ -95,8 +99,7 @@
                     </div>
                 </div>
                 <div class="flores-2">
-                    <img src="./assets/Flor1.PNG" alt="" style="width: 300px; display: flex; justify-content: end;
-                    ">
+                    <img class="img-footer" src="./assets/Flor1.PNG" alt="">
                 </div>
             </section>
         </div>
@@ -107,15 +110,17 @@
                 <div class="text-center">
                     <h1 class="h1-d">Lista de Regalos
                     </h1>
+                    <h1 class="h1-m">Lista de Regalos
+                    </h1>
                 </div>
                 <div class="flores2">
-                    <p><a class="fs-4 btn-agenda" id="btnAgenda" href="#agenda"> <img style="width: 20px"  src="./assets/arrows-icon-left.png" alt=""> Página Principal</a></p>
+                    <p><a class="fs-4 btn-agenda-d" id="btnAgenda" href="#agenda"> <img style="width: 20px"  src="./assets/arrows-icon-left.png" alt=""> Página Principal</a>
+                        <a class="btn-agenda-m" id="btnAgenda" href="#agenda"> <img style="width: 10px"  src="./assets/arrows-icon-left.png" alt=""> Página Principal</a></p>
                     <img src="./assets/Flor1.PNG" alt="">
                 </div>
             </div>
             <section class="hero-banner">
-                <img src="./assets/Imagenpagina.png" alt="">
-                <div class="row justify-content-between align-content-center mt-5 mb-5">
+                <div class="row  justify-content-between align-content-center mt-5 mb-5">
                     <div class="text-center">
                         <p class="fs-3 m-w">¡El mejor regalo para este día es su compañía, pero si quieren contribuir con algo más, pueden hacerlo regalándonos una experiencia increíble para nuestra Luna de Miel!
                         </p>
@@ -123,75 +128,83 @@
                 </div>
             </section>
             <section class="ecommerce">
-                <div class="row justify-content-around align-items-end">
+                <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4 justify-content-around align-items-end">
+
+                    <div class="col-md-4 col-sm-2 fs-4 text-center mt-5">
+                        <p>Aporte Libre
+                         </strong></p>
+                         <img class=" img-cover" src="./assets/Aportelibre.png" alt="">
+                        
+                     <button type="button" class="btn btn-secondary mt-2 aporte-aqui" data-bs-toggle="modal" data-bs-target="#exampleModal" data-aporte="Visita a Santuario de Elefantes - Bali">Aporta Aquí</button>
+                     </div>
                     
-                    <div class="col-4 fs-4 text-center mt-5">
+                    <div class="col-md-4 col-sm-2 fs-4 text-center mt-5">
                         <p>Almuerzo en Peter Luger<br> <strong>New York
                          </strong></p>
                          <img class="img-cover" src="./assets/Imagen1.jpg" alt="">
                      <button type="button" class="btn btn-secondary mt-2 aporte-aqui" data-bs-toggle="modal" data-bs-target="#exampleModal" data-aporte="Almuerzo en Peter Luger - New York">Aporta Aquí</button>
                      </div> 
-                     <div class="col-4 fs-4 text-center mt-5">
+                     <div class="col-md-4 col-sm-2 fs-4 text-center mt-5">
                         <p>Comida en Rezdora<br> <strong>New York
                          </strong></p>
                          <img class=" img-cover" src="./assets/Imagen2.jpg" alt="">
                      <button type="button" class="btn btn-secondary mt-2 aporte-aqui" data-bs-toggle="modal" data-bs-target="#exampleModal" data-aporte="Comida en Rezdora - New York">Aporta Aquí</button>
                      </div> 
-                     <div class="col-4 fs-4 text-center mt-5">
+                     <div class="col-md-4 col-sm-2 fs-4 text-center mt-5">
                         <p>Musical de Broadway<br> <strong>New York
                          </strong></p>
                          <img class=" img-cover" src="./assets/Imagen3.jpg" alt="">
                      <button type="button" class="btn btn-secondary mt-2 aporte-aqui" data-bs-toggle="modal" data-bs-target="#exampleModal" data-aporte="Musical de Broadway - New York">Aporta Aquí</button>
                      </div>
-                     <div class="col-4 fs-4 text-center mt-5">
+                     <div class="col-md-4 col-sm-2 fs-4 text-center mt-5">
                         <p>City Tour Singapore<br> <strong>Singapur
                          </strong></p>
                          <img class=" img-cover" src="./assets/Imagen4.jpg" alt="">
                      <button type="button" class="btn btn-secondary mt-2 aporte-aqui" data-bs-toggle="modal" data-bs-target="#exampleModal" data-aporte="City Tour Singapore - Singapur">Aporta Aquí</button>
                      </div>
-                     <div class="col-4 fs-4 text-center mt-5">
+                     <div class="col-md-4 col-sm-2 fs-4 text-center mt-5">
                         <p>Tour por Gardens By The Bay<br><strong>Singapur
                          </strong></p>
                          <img class=" img-cover" src="./assets/Imagen5.jpg" alt="">
                      <button type="button" class="btn btn-secondary mt-2 aporte-aqui" data-bs-toggle="modal" data-bs-target="#exampleModal" data-aporte="Tour por Gardens By The Bay - Singapur">Aporta Aquí</button>
                      </div>
-                     <div class="col-4 fs-4 text-center mt-5">
+                     <div class="col-md-4 col-sm-2 fs-4 text-center mt-5">
                         <p>River and Night Safari<br><strong>Singapur
                          </strong></p>
                          <img class=" img-cover" src="./assets/Imagen6.jpg" alt="">
                      <button type="button" class="btn btn-secondary mt-2 aporte-aqui" data-bs-toggle="modal" data-bs-target="#exampleModal" data-aporte="River and Night Safari - Singapur">Aporta Aquí</button>
                      </div>
-                     <div class="col-4 fs-4 text-center mt-5">
+                     <div class="col-md-4 col-sm-2 fs-4 text-center mt-5">
                         <p>Comida en Marina Bay Sands<br><strong>Singapur
                          </strong></p>
                          <img class=" img-cover" src="./assets/Imagen7.jpg" alt="">
                      <button type="button" class="btn btn-secondary mt-2 aporte-aqui" data-bs-toggle="modal" data-bs-target="#exampleModal" data-aporte="Comida en Marina Bay Sands - Singapur">Aporta Aquí</button>
                      </div>
-                     <div class="col-4 fs-4 text-center mt-5">
+                     <div class="col-md-4 col-sm-2 fs-4 text-center mt-5">
                         <p>Bike and Food Tour<br><strong>Singapur
                          </strong></p>
                          <img class=" img-cover" src="./assets/Imagen8.jpg" alt="">
                      <button type="button" class="btn btn-secondary mt-2 aporte-aqui" data-bs-toggle="modal" data-bs-target="#exampleModal" data-aporte="Bike and Food Tour - Singapur">Aporta Aquí</button>
                      </div>
-                     <div class="col-4 fs-4 text-center mt-5">
+                     <div class="col-md-4 col-sm-2 fs-4 text-center mt-5">
                         <p>Tour privado Bali (Best of)<br><strong>Bali
                          </strong></p>
                          <img class=" img-cover" src="./assets/Imagen9.jpg" alt="">
                      <button type="button" class="btn btn-secondary mt-2 aporte-aqui" data-bs-toggle="modal" data-bs-target="#exampleModal" data-aporte="Tour privado Bali (Best of) - Bali">Aporta Aquí</button>
                      </div>
-                     <div class="col-4 fs-4 text-center mt-5">
+                     <div class="col-md-4 col-sm-2 fs-4 text-center mt-5">
                         <p>Tour de Templos y Terrazas de Arroz<br><strong>Bali
                          </strong></p>
                          <img class=" img-cover" src="./assets/Imagen10.jpg" alt="">
                      <button type="button" class="btn btn-secondary mt-2 aporte-aqui" data-bs-toggle="modal" data-bs-target="#exampleModal" data-aporte="Tour de Templos y Terrazas de Arroz - Bali">Aporta Aquí</button>
                      </div>
-                     <div class="col-4 fs-4 text-center mt-5">
+                     <div class="col-md-4 col-sm-2 fs-4 text-center mt-5">
                         <p>Bali ATV Ride and White Water Rafting<br><strong>Bali
                          </strong></p>
                          <img class=" img-cover" src="./assets/Imagen11.jpg" alt="">
                      <button type="button" class="btn btn-secondary mt-2 aporte-aqui" data-bs-toggle="modal" data-bs-target="#exampleModal" data-aporte="Bali ATV Ride and White Water Rafting - Bali">Aporta Aquí</button>
                      </div>
-                     <div class="col-4 fs-4 text-center mt-5">
+                     <div class="col-md-4 col-sm-2 fs-4 text-center mt-5">
                         <p>Día de Spa<br><strong>Bali
                          </strong></p>
                          <img class=" img-cover" src="./assets/Imagen12.jpg" alt="">
@@ -199,7 +212,7 @@
                      </div>
 
 
-                     <div class="col-4 fs-4 text-center mt-5">
+                     <div class="col-md-4 col-sm-2 fs-4 text-center mt-5">
                         <p>Ubud Cooking Class<br><strong>Bali
                          </strong></p>
                          <img class=" img-cover" src="./assets/Imagen13.jpg" alt="">
@@ -207,28 +220,28 @@
                      </div>
 
 
-                     <div class="col-4 fs-4 text-center mt-5">
+                     <div class="col-md-4 col-sm-2 fs-4 text-center mt-5">
                         <p>Día de Buceo en Nusa Penida<br><strong>Bali
                          </strong></p>
                          <img class=" img-cover" src="./assets/Imagen14.jpg" alt="">
                      <button type="button" class="btn btn-secondary mt-2 aporte-aqui" data-bs-toggle="modal" data-bs-target="#exampleModal" data-aporte="Día de Buceo en Nusa Penida - Bali">Aporta Aquí</button>
                      </div>
 
-                     <div class="col-4 fs-4 text-center mt-5">
+                     <div class="col-md-4 col-sm-2 fs-4 text-center mt-5">
                         <p>Trekking en Mt. Batur<br><strong>Bali
                          </strong></p>
                          <img class=" img-cover" src="./assets/Imagen15.jpg" alt="">
                      <button type="button" class="btn btn-secondary mt-2 aporte-aqui" data-bs-toggle="modal" data-bs-target="#exampleModal" data-aporte="Trekking en Mt. Batur - Bali">Aporta Aquí</button>
                      </div>
 
-                     <div class="col-4 fs-4 text-center mt-5">
+                     <div class="col-md-4 col-sm-2 fs-4 text-center mt-5">
                         <p>Sacred Monkey Forest<br><strong>Bali
                          </strong></p>
                          <img class=" img-cover" src="./assets/Imagen16.jpg" alt="">
                      <button type="button" class="btn btn-secondary mt-2 aporte-aqui" data-bs-toggle="modal" data-bs-target="#exampleModal" data-aporte="Sacred Monkey Forest - Bali">Aporta Aquí</button>
                      </div>
 
-                     <div class="col-4 fs-4 text-center mt-5">
+                     <div class="col-md-4 col-sm-2 fs-4 text-center mt-5">
                         <p>Uluwatu Sunset Trip and Dinner <br><strong>Bali
                          </strong></p>
                          <img class=" img-cover" src="./assets/Imagen17.jpg" alt="">
@@ -237,34 +250,28 @@
 
                      
 
-                     <div class="col-4 fs-4 text-center mt-5">
+                     <div class="col-md-4 col-sm-2 fs-4 text-center mt-5">
                         <p>Tour de Cascadas<br><strong>Bali
                          </strong></p>
                          <img class=" img-cover" src="./assets/Imagen18.jpg" alt="">
                      <button type="button" class="btn btn-secondary mt-2 aporte-aqui" data-bs-toggle="modal" data-bs-target="#exampleModal" data-aporte="Tour de Cascadas - Bali">Aporta Aquí</button>
                      </div>
 
-                     <div class="col-4 fs-4 text-center mt-5">
+                     <div class="col-md-4 col-sm-2 fs-4 text-center mt-5">
                         <p>Comida romántica<br><strong>Bali
                          </strong></p>
                          <img class=" img-cover" src="./assets/Imagen19.jpg" alt="">
                      <button type="button" class="btn btn-secondary mt-2 aporte-aqui" data-bs-toggle="modal" data-bs-target="#exampleModal" data-aporte="Comida romántica - Bali">Aporta Aquí</button>
                      </div>
 
-                     <div class="col-4 fs-4 text-center mt-5">
+                     <div class="col-md-4 col-sm-2 fs-4 text-center mt-5">
                         <p>Visita a Santuario de Elefantes<br><strong>Bali
                          </strong></p>
                          <img class=" img-cover" src="./assets/Imagen20.jpg" alt="">
                      <button type="button" class="btn btn-secondary mt-2 aporte-aqui" data-bs-toggle="modal" data-bs-target="#exampleModal" data-aporte="Visita a Santuario de Elefantes - Bali">Aporta Aquí</button>
                      </div>
 
-                     <div class="col-4 fs-4 text-center mt-5">
-                        <p>Aporte Libre
-                         </strong></p>
-                         <img class=" img-cover" src="./assets/Aportelibre.png" alt="">
-                        
-                     <button type="button" class="btn btn-secondary mt-2 aporte-aqui" data-bs-toggle="modal" data-bs-target="#exampleModal" data-aporte="Visita a Santuario de Elefantes - Bali">Aporta Aquí</button>
-                     </div>
+                     
 
 
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -306,11 +313,12 @@
 </div>
                     
 
-                
-            </section>
+</section>
+<div class="flores-2">
+    <img class="img-footer" src="./assets/Flor1.PNG" alt="">
+</div>
         </div>
 
-        <div style="margin-top: 100px;"></div>
         
 
 

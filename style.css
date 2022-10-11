@@ -122,12 +122,16 @@ width: 100%;
     width: 300px;
     z-index: -99;
 }
-.btn-agenda {
+.btn-agenda-d {
     text-decoration: none;
     color: #666;
 }
-.btn-agenda span {
+.btn-agenda-d span {
     height: 200%;
+}
+
+.btn-agenda-m {
+    display: none;
 }
 
 .lista-regalos {
@@ -150,7 +154,7 @@ form {
 }
 
 .m-w {
-    margin: 0 20px;
+    margin: 10px 200px;
 }
 
 .img-cover {
@@ -163,22 +167,93 @@ form {
     font-size: 1.5rem;
 }
 
+.h1-m {
+    display: none;
+}
+
+.img-footer {
+    width: 300px;
+display: flex;
+justify-content: end;
+}
 @media (max-width: 728px) {
+
+    .h1-m {
+        display: inline;
+        font-family: "Rastanty", serif;
+        font-size: 65px;
+        margin: 0;
+        line-height: 40px;
+    }
+
+    .h1-m br {
+        margin-top: -50px;
+    }
+
+    .h1-d {
+        display: none;
+    }
+
+    .header img {
+        width: 200px;
+    }
+
+    #agenda > div > div.flores-2 > img {
+        width: 200px;
+    }
+
+    .h2 {
+        font-size: 16px;
+    }
+
+    .h2-d {
+        font-size: 65px;
+    }
   
     .flor2 {
-        width: 100%;
+        width: 75%;
     top: 60%;
 
     }
     
     .flor1 {
-        width: 100%;
+        width: 70%;
     }
     #agenda > div > div.text-center > h1 > br:nth-child(1), #agenda > div > div.text-center > h1 > br:nth-child(2) {
         display: inline;
     }
+    .m-w {
+       margin: 0px;
+    }
+
+    .btn-agenda-d {
+        display: none;
+    }
+    .btn-agenda-m {
+        display: block;
+        margin-top: 15px;
+        text-decoration: none;
+        color: rgb(30, 30, 30);
+
+    }
+    .btn-agenda-m span {
+        height: 200%;
+    }
     .ecommerce p {
         font-size: 12px;
+    }
+
+    .img-cover {
+        width: 150px;
+    }
+    #listaRegalos > section.ecommerce > div > div > button {
+        font-size: 1rem;
+    }
+
+    .img-footer {
+        width: 200px;
+    display: flex;
+    justify-content: end;
     }
   
   }
