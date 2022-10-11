@@ -12,7 +12,7 @@ aporteAqui.forEach(aportes => {
   aportes.addEventListener('click', () => {
     let msg = aportes.dataset.aporte; 
     console.log(msg);
-    return messageModal.innerText = `tu aporte sera para ${msg}`
+    return messageModal.innerText = `Aporte para ${msg}`
   })
 })
 

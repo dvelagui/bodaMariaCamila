@@ -33,6 +33,10 @@ body {
     color: rgb(30, 30, 30);
 }
 
+.btn-secondary {
+    background-color: #9a8784;
+}
+
 .hero-banner img {
 width: 100%;
 }
@@ -40,8 +44,12 @@ width: 100%;
     width: 300px;
 }
 
+#agenda > div > div.flores-2 > img {
+    width: 250px;
+}
+
 .border-r {
-    border-right: 1px solid #666;
+    border-right: 1px solid #9a8784;
 }
 .d-f {
     display: flex;
@@ -53,19 +61,26 @@ width: 100%;
     display: none;
 }
 
-.color-#ffc107 {
-    color: #ffc107;
+.color-peru {
+    color: #9a8784;
 }
 
 .line-c {
-    margin: 20px 0 20px 0;
+    margin: 40px 0 20px 0;
     text-align: center;
-    width: 20%;
-    border-bottom: 1px solid #ffc107;
+    width: 10%;
+    border-bottom: 1px solid #9a8784;
+}
+
+.line-c2 {
+    margin: 50px 0 40px 0;
+    text-align: center;
+    width: 10%;
+    border-bottom: 1px solid #9a8784;
 }
 
 .flores2 img {
-    width: 400px;
+    width: 250px;
 }
 .flores2 {
     display: flex;
@@ -75,6 +90,10 @@ width: 100%;
 .flores2 img {
     transform: rotate(180deg);
 
+}
+
+.fw-500 {
+    font-weight: 500;
 }
 
 .flores-2 {
@@ -89,15 +108,15 @@ width: 100%;
     position: absolute;
 }
 .flor2 {
-    left: -130px;
+    left: -100px;
     top: 50%;
     transform: rotate(-90deg);
-    width: 300px;
+    width: 400px;
     z-index: -99;
 }
 
 .flor1 {
-    right: -130px;
+    right: -110px;
     top: 10%;
     transform: rotate(90deg);
     width: 300px;
@@ -116,7 +135,7 @@ width: 100%;
 }
 
 .ecommerce p {
-    font-size: 18px;
+    font-size: 1.5rem;
 }
 
 form {
@@ -128,6 +147,20 @@ form {
     border: 1px solid #666;
     border-radius: 5px;
     margin: 0 auto;
+}
+
+.m-w {
+    margin: 0 20px;
+}
+
+.img-cover {
+    width: 400px;
+}
+
+
+
+#listaRegalos > section.ecommerce > div > div > button {
+    font-size: 1.5rem;
 }
 
 @media (max-width: 728px) {
