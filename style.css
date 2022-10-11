@@ -130,12 +130,13 @@ body {
     z-index: -99;
 }
 
-.btn-agenda-d {
+.btn-agenda {
     text-decoration: none;
     color: #666;
+    font-size: 1.25rem;
 }
 
-.btn-agenda-d span {
+.btn-agenda span {
     height: 200%;
 }
 
@@ -145,6 +146,9 @@ body {
 
 .lista-regalos {
     display: none;
+}
+#btnAgenda > img {
+    width: 20px;
 }
 
 .ecommerce p {
@@ -237,16 +241,14 @@ form {
         margin: 0px;
     }
 
-    .btn-agenda-d {
-        display: none;
+    .btn-agenda {
+        font-size: 0.8rem;
     }
 
-    .btn-agenda-m {
-        display: block;
-        margin-top: 15px;
-        text-decoration: none;
-        color: rgb(30, 30, 30);
+  
 
+    #btnAgenda > img {
+        width: 10px;
     }
 
     .btn-agenda-m span {
@@ -254,7 +256,7 @@ form {
     }
 
     .ecommerce p {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .img-cover {
@@ -269,6 +271,14 @@ form {
         width: 200px;
         display: flex;
         justify-content: end;
+    }
+
+    .flores2 {
+        padding-top: 20px;
+    }
+
+    .flores-2 {
+        padding: 10px;
     }
 
 }
