@@ -205,8 +205,8 @@ form {
 @media (max-width: 728px) {
 
     .fs3, .h2v {
-        font-size: 1.12rem;
-        font-weight: 700;
+        font-size: 1.2rem;
+        font-weight: 900;
     font-family: "mk-serif", serif;
     }
 
@@ -272,7 +272,7 @@ form {
     }
 
     .d-f {
-        margin-top: -30px;
+        margin-top: -20px;
     }
     .flor1 {
         width: 70%;
