@@ -1,24 +1,21 @@
 @font-face {
     font-family: "Rastanty";
     src: url("./fonts/Rastanty\ Cortez.ttf");
-  }
+}
 
-  @font-face {
+@font-face {
     font-family: "mk-serif";
     src: url("./fonts/MaryKaySerif100-Light.otf");
-  }
-  @font-face {
-    font-family: "mk-sans-bold";
-    src: url("./fonts/MaryKaySans-Bold.otf");
-  }
+}
 
-  .h1-d { 
+
+.h1-d {
     font-family: "Rastanty", serif;
     font-size: 120px;
     margin: -40px 0;
 }
 
-.h2-d { 
+.h2-d {
     font-family: "Rastanty", serif;
     font-size: 100px;
 }
@@ -26,7 +23,7 @@
 .h2 {
     font-family: "mk-serif", serif;
     font-weight: 700;
-   
+
 }
 
 body {
@@ -38,26 +35,30 @@ body {
 }
 
 .hero-banner img {
-width: 100%;
+    width: 100%;
 }
+
 .header img {
     width: 300px;
 }
 
-#agenda > div > div.flores-2 > img {
+#agenda>div>div.flores-2>img {
     width: 250px;
 }
 
 .border-r {
     border-right: 1px solid #9a8784;
 }
+
 .d-f {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-#agenda > div > div.text-center > h1 > br:nth-child(1), #agenda > div > div.text-center > h1 > br:nth-child(2) {
+
+#agenda>div>div.text-center>h1>br:nth-child(1),
+#agenda>div>div.text-center>h1>br:nth-child(2) {
     display: none;
 }
 
@@ -82,11 +83,13 @@ width: 100%;
 .flores2 img {
     width: 250px;
 }
+
 .flores2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .flores2 img {
     transform: rotate(180deg);
 
@@ -101,12 +104,16 @@ width: 100%;
     justify-content: start;
     transform: rotate(180deg);
 }
+
 .agenda {
     position: relative;
 }
-.flor2, .flor1 {
+
+.flor2,
+.flor1 {
     position: absolute;
 }
+
 .flor2 {
     left: -100px;
     top: 50%;
@@ -122,10 +129,12 @@ width: 100%;
     width: 300px;
     z-index: -99;
 }
+
 .btn-agenda-d {
     text-decoration: none;
     color: #666;
 }
+
 .btn-agenda-d span {
     height: 200%;
 }
@@ -161,9 +170,7 @@ form {
     width: 400px;
 }
 
-
-
-#listaRegalos > section.ecommerce > div > div > button {
+#listaRegalos>section.ecommerce>div>div>button {
     font-size: 1.5rem;
 }
 
@@ -173,9 +180,10 @@ form {
 
 .img-footer {
     width: 300px;
-display: flex;
-justify-content: end;
+    display: flex;
+    justify-content: end;
 }
+
 @media (max-width: 728px) {
 
     .h1-m {
@@ -198,7 +206,7 @@ justify-content: end;
         width: 200px;
     }
 
-    #agenda > div > div.flores-2 > img {
+    #agenda>div>div.flores-2>img {
         width: 200px;
     }
 
@@ -209,26 +217,30 @@ justify-content: end;
     .h2-d {
         font-size: 65px;
     }
-  
+
     .flor2 {
         width: 75%;
-    top: 60%;
+        top: 60%;
 
     }
-    
+
     .flor1 {
         width: 70%;
     }
-    #agenda > div > div.text-center > h1 > br:nth-child(1), #agenda > div > div.text-center > h1 > br:nth-child(2) {
+
+    #agenda>div>div.text-center>h1>br:nth-child(1),
+    #agenda>div>div.text-center>h1>br:nth-child(2) {
         display: inline;
     }
+
     .m-w {
-       margin: 0px;
+        margin: 0px;
     }
 
     .btn-agenda-d {
         display: none;
     }
+
     .btn-agenda-m {
         display: block;
         margin-top: 15px;
@@ -236,9 +248,11 @@ justify-content: end;
         color: rgb(30, 30, 30);
 
     }
+
     .btn-agenda-m span {
         height: 200%;
     }
+
     .ecommerce p {
         font-size: 12px;
     }
@@ -246,15 +260,15 @@ justify-content: end;
     .img-cover {
         width: 150px;
     }
-    #listaRegalos > section.ecommerce > div > div > button {
+
+    #listaRegalos>section.ecommerce>div>div>button {
         font-size: 1rem;
     }
 
     .img-footer {
         width: 200px;
-    display: flex;
-    justify-content: end;
+        display: flex;
+        justify-content: end;
     }
-  
-  }
 
+}
