@@ -20,7 +20,7 @@
     font-size: 100px;
 }
 
-.h2 {
+.h2v {
     font-family: "mk-serif", serif;
     font-weight: 700;
 
@@ -188,7 +188,35 @@ form {
     justify-content: end;
 }
 
+.fs3 {
+    font-size: 1.75rem;
+    font-family: "mk-serif", serif;
+
+}
+
+.fs4 {
+    font-size: 1.5rem;
+}
+
+.fs5 {
+    font-size: 1.25rem;
+}
+
 @media (max-width: 728px) {
+
+    .fs3, .h2v {
+        font-size: 1.12rem;
+        font-weight: 700;
+    font-family: "mk-serif", serif;
+    }
+
+    .fs4 {
+        font-size: 0.9rem;
+    }
+    .fs5 {
+        font-size: 0.9rem;
+    }
+
 
     .h1-m {
         display: inline;
@@ -207,19 +235,33 @@ form {
     }
 
     .header img {
-        width: 200px;
+        width: 150px;
+        margin-left: -15px;
     }
 
+
     #agenda>div>div.flores-2>img {
-        width: 200px;
+        width: 130px;
+    }
+    #agenda > section.hero-banner {
+        margin-top: -10px;
+    }
+
+    #agenda > section.hero-banner > img {
+            padding: 0;
     }
 
     .h2 {
         font-size: 16px;
+        font-weight: bolder;
+    }
+
+    .fs-3 {
+        font-size: 12px;
     }
 
     .h2-d {
-        font-size: 65px;
+        font-size: 50px;
     }
 
     .flor2 {
@@ -228,6 +270,9 @@ form {
 
     }
 
+    .d-f {
+        margin-top: -30px;
+    }
     .flor1 {
         width: 70%;
     }
