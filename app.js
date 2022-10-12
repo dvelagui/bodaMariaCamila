@@ -30,7 +30,7 @@ const aporta = () => {
       currency: 'COP',
       amountInCents: valor * 100,
       reference: `${mensaje} - ${refer}`,
-      publicKey: 'pub_test_EPOG9mDxjRS8BmqUr3WHiVZLYPjA0BDW',
+      publicKey: 'pub_prod_ApVE1TO3a4XZllfxE0FsjjhIIUK3TtQd',
       customerData: {
         email: `${mail}`,
         fullName: `${nombre}`,
