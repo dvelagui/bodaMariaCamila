@@ -193,6 +193,11 @@ form {
     font-family: "mk-serif", serif;
 
 }
+.fs3-t {
+    font-size: 1.75rem;
+    line-height: 27px;
+
+}
 
 .fs4 {
     font-size: 1.5rem;
@@ -210,14 +215,33 @@ form {
     font-family: "mk-serif", serif;
     }
 
+    .fs3-t {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
     .fs4 {
         font-size: 0.9rem;
         font-weight: 700;
     }
+    .ecommerce .fs4 {
+        font-weight: 500;
+    }
     .fs5 {
         font-size: 0.9rem;
     }
+    .fsbtn {
+        font-size: 0.7rem;
+    }
 
+    .ecommerce {
+        margin-top: -45px;
+    }
+
+    #agenda > section.agenda.text-center > div.d-f > div.row.justify-content-between.align-content-center.mt-3 > div > p.fs3.text-uppercase.color-peru.mb-3.h2v, #agenda > section.agenda.text-center > div.d-f > h1:nth-child(12) {
+        margin-top: -15px;
+        margin-bottom: 0;
+    }
 
     .h1-m {
         display: inline;
@@ -261,13 +285,18 @@ form {
         font-size: 12px;
     }
 
+    .line-c2 {
+        margin: 30px 0 40px 0;
+    }
+
     .h2-d {
         font-size: 50px;
     }
 
     .flor2 {
-        width: 75%;
+        width: 57%;
         top: 60%;
+        left: -78px;
 
     }
 
@@ -275,7 +304,8 @@ form {
         margin-top: -20px;
     }
     .flor1 {
-        width: 70%;
+        width: 50%;
+    right: -85px;
     }
 
     #agenda>div>div.text-center>h1>br:nth-child(1),
@@ -289,6 +319,7 @@ form {
 
     .btn-agenda {
         font-size: 0.8rem;
+        margin-left: 10px;
     }
 
   
@@ -306,7 +337,7 @@ form {
     }
 
     .img-cover {
-        width: 150px;
+        width: 100%;
     }
 
     #listaRegalos>section.ecommerce>div>div>button {
@@ -314,7 +345,7 @@ form {
     }
 
     .img-footer {
-        width: 200px;
+        width: 40%;
         display: flex;
         justify-content: end;
     }
